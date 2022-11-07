@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hi there! WoW... <code>docker-compose up</code> works!
+          Hi Adzia!
         </p>
         <a
           className="App-link"
