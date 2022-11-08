@@ -1,4 +1,4 @@
-name: Deploy
+name: Pipeline
 on: push
 
 jobs:
@@ -24,7 +24,7 @@ jobs:
       - name: Run tests
         run: docker run -e CI=true grszyman/docker-react-2022-dev npm test
 
-  build:
+  deploy:
     runs-on: ubuntu-latest
     needs: test
     if: github.ref == 'refs/heads/main'
