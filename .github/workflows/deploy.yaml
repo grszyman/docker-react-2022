@@ -1,8 +1,5 @@
 name: Deploy
-on:
-  push:
-    branches:
-      - main
+on: push
 
 jobs:
   setup:
@@ -26,9 +23,6 @@ jobs:
 
       - name: Run tests
         run: docker run -e CI=true grszyman/docker-react-2022-dev npm test
-
-      - name: Echo ref
-        run: echo ${{ github.ref }}
 
   build:
     runs-on: ubuntu-latest
