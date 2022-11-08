@@ -1,3 +1,8 @@
+# Notes
+
+* [Complete guide on deploying a Docker application (React) to AWS Elastic Beanstalk using Docker Hub and Github Actions](https://akashsingh.blog/complete-guide-on-deploying-a-docker-application-react-to-aws-elastic-beanstalk-using-docker-hub-and-github-actions)
+* [AWS Elastic Beanstalk - Using the Docker platform branch](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/docker.html)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
